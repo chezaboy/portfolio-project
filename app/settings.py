@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Chezre's apps
     'jobs',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '5432'
     }
 }
 
